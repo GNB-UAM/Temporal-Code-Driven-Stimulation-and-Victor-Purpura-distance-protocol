@@ -1,9 +1,5 @@
 ### Victor Purpura and TCDS closed loop stimulation protocol
 
-**Requirements:** None  
-**Limitations:** None  
-
-
 <!--start-->
 Implementation of a real-time closed-loop stimulation protocol to study activity codes with flexibility using the Real-Time eXperiment Interface (RTXI). This new and easier-to-use implementation is based on the TCDS protocol and the Victor-Purpura distance.
 <!--end-->
