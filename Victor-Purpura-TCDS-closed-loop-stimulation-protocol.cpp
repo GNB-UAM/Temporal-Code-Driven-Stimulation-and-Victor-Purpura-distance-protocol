@@ -2,7 +2,6 @@
 /*!
  * @file VictorPurpura.cpp
  * @date 7/2022
- * @author Alberto Ayala
  * 
  * @brief Archivo protocolo VictorPurpura
  * 
@@ -396,8 +395,6 @@ int VictorPurpura::detect_spike (double voltage)
 /**
  * Inicializa los valores y punteros de la estructura WordsBuffer
  * 
- * @author Ángel Lareo
- * @date 1/2013
  * 
  * @param[in,out]   wb       puntero a la estructura a rellenar
  * @param[in]       length   longitud de palabras en estructura expresada en bits    
@@ -438,8 +435,6 @@ void bbReversePtr (BitsBuffer* bb, char** ptr){
 /**
  * Inicializa los valores y punteros de la estructura WordsBuffer
  * 
- * @author Ángel Lareo
- * @date 1/2013
  * 
  * @param[in,out]   wb      puntero a la estructura a rellenar
  * @param[in]       bit     bit a introducir
@@ -502,8 +497,6 @@ int wbBits2Int(WordsBuffer *wb){
 /**
  * Inserta una palabra con el valor de word en la estructura WordsBuffer
  * 
- * @author Ángel Lareo
- * @date 1/2013
  * 
  * @param[in,out]   wb      puntero a la estructura a rellenar
  * @param[in]       word    valor de la palabra
@@ -529,9 +522,6 @@ int wbWordInsert (WordsBuffer* wb, int word){ //Inserts word on WordsBuffer
  * Para ello primero realiza una transformacion de bits a entero.
  * Si no se han introducido suficientes bits para establecer una palabra, devuelve ERR.
  * 
- * @author Ángel Lareo
- * @date 1/2013
- * 
  * @see wbWordInsert
  * 
  * @param[in,out]   wb      puntero a la estructura donde se insertará la palabra
@@ -556,8 +546,6 @@ int wbStoreWord (WordsBuffer *wb){
 /**
  * Comprueba si la palabra binaria word coincide con la que se encuentra en la estructura de bits
  * 
- * @author Ángel Lareo
- * @date 1/2013
  * 
  * @param[in]   wb      puntero a la estructura donde se encuentran los bits de una palabra a comparar
  * @param[in]   word    array de bits con la otra palabra a comparar
