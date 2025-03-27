@@ -5,7 +5,7 @@ Implementation of a real-time closed-loop stimulation protocol to study activity
 <!--end-->
 
 #### Input
-1. input(0) - IV : Weakly electric fish voltage (V)
+1. input(0) - IV : Neural signal (V)
 
 #### Output
 1. output(0) - Now : Task startup time
