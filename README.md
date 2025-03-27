@@ -19,3 +19,8 @@ Implementation of a real-time closed-loop stimulation protocol to study activity
 4. q - Relative sensitivity of the metric to the precise timing of the spikes
 5. Limit - Victor Purpura distance threshold
 6. Word - Word to detect
+
+### References
+If you use this code in your research, please cite:
+
+Ayala, A., Lareo, A., Varona, P. et al. Neural temporal code-driven stimulation in real-time using the Victor–Purpura distance. Evolving Systems 16, 53 (2025). https://doi.org/10.1007/s12530-025-09670-4
